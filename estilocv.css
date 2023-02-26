@@ -1,0 +1,228 @@
+.contenedor {
+
+  border-color: black;
+  font-size: 12px;
+  padding: 15px;
+  background-color: #fafafa;
+}
+
+
+.fonndoceleste {
+  background-color: #BCD6ED;
+}
+
+
+#fotopersona {
+
+
+  border-radius: 50%;
+  border: 5px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+
+
+.foto {
+  grid-area: 1/1/span 1/span 2;
+  background-color: #DDDDDD;
+  padding: 5%;
+  border: black solid 7px;
+  border-radius: 25% 25% 0% 0%;
+
+}
+
+.titulo {
+  background-color: white;
+  border-bottom: black double 7px;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  display: inline-flex;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  width: 455px;
+  justify-content: space-between;
+}
+
+
+.informacionpersonal {
+  grid-area: 2/1/ span 1/ span 2;
+  background-color: #BCD6ED;
+  padding: 5%;
+  border-color: black;
+  border: black solid 7px;
+  border-top: 0px;
+  border-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+
+}
+
+
+.contenidoinformacionpersonal {
+  text-align: left;
+  padding: 5px;
+
+}
+
+.contenidodatosdecontacto {
+  text-align: left;
+  padding: 5px;
+
+}
+
+
+.datosdecontacto {
+  grid-area: 2/5/span 1/span 2;
+  background-color: #DDDDDD;
+  padding: 5%;
+  border: black solid 7px;
+  border-style: groove;
+  border-radius: 0% 0% 25% 25%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+
+#subtituloinformacionpersonal1,
+#subtituloinformacionpersonal2,
+#subtitulodatosdecontacto,
+#subtituloperfilpersonal {
+
+  font-weight: bolder;
+
+}
+
+.botonesGlobales1 {
+  grid-area: 3/1/span 1/span 3;
+  background-color: white;
+  padding-left: 0.5%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+.botonesGlobales2 {
+  grid-area: 3/4/span 1/span 3;
+  background-color: white;
+  padding-left: 0.5%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+
+.textocv {
+  grid-area: 4/1/span 1/span 6;
+  background-color: white;
+  padding-left: 0.5%;
+  padding-right: 2%;
+}
+
+
+
+.titulodatopersonal {
+  font-weight: bolder;
+  justify-content: center;
+  font-size: x-large;
+
+
+}
+
+.izquierda {
+  margin: 5%;
+}
+
+
+h1 {
+  font-size: xxx-large;
+
+
+}
+
+
+h2 {
+  color: #5C5C5C;
+  font-family: 'Roboto', sans-serif;
+  border-top: black dotted 4px;
+  padding-top: 10px;
+
+}
+
+#subtituloexperiencia {
+  border-top: black dotted 0px;
+
+}
+
+
+* {  font-family: 'Roboto', sans-serif;
+}
+
+.botoncontenido {
+  font-size: medium;
+}
+
+.contenidoExperencia,
+.contenidoCursos,
+.contenidoFormacion,
+.contenidoReferencias,
+.contenidoInformatica {
+  display: inline;
+
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+@media (max-width:500px) {
+  .container {
+    width: 80% !important;
+  }
+
+  .titulo {
+    flex-direction: column;
+  }
+}
+
+
+.sobremi {
+  text-align: left;
+}
+
+.subtitulopuesto {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.subtituloinstitucion {
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.conjuntoizquierda,
+.conjuntoderecha {
+  padding-left: 1px;
+}
