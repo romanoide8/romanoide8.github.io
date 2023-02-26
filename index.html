@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="css styles/estilocv.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 ">
+                <div class="card text-center">
+                    <div class="card-header ">
+                        <img class="izquierda" id="fotopersona" src="https://randomuser.me/api/portraits/men/97.jpg">
+                    </div>
+
+                    <div class="card-body">
+                        <p class="contenidoinformacionpersonal h3" id="subtituloinformacionpersonal1">Informacion
+                            Personal
+                            : </p>
+                        <p class="contenidoinformacionpersonal h5"> <strong>DNI :</strong> 35550000</p>
+                        <p class="contenidoinformacionpersonal h5"><strong>Fecha de Nacimiento :</strong> 09/05/1981
+                        </p>
+                        <p class="contenidoinformacionpersonal h5"><strong>Estado Civil :</strong> Soltero </p>
+                        <p class="contenidoinformacionpersonal h4" id="subtituloinformacionpersonal2">Idiomas : </p>
+                        <p class="contenidoinformacionpersonal h5"><strong>ESPAÑOL :</strong> Nativo </p>
+                        <p class="contenidoinformacionpersonal h5"><strong>INGLES :</strong> Intermedio </p>
+                    </div>
+
+                    <div class="card-footer">
+                        <p class="contenidodatosdecontacto h3" id="subtitulodatosdecontacto">Datos de Contacto : </p>
+                        <p class="contenidodatosdecontacto h5">
+                            <a href="mailto:angel.flores@example.com"> angel.flores@example.com</a>
+                        </p>
+                        <p class="contenidodatosdecontacto h5"> <a href="tel:(722) 385-4949"> (722) 385-4949</a>
+                        </p>
+                        <p class="contenidodatosdecontacto h5">1883 Stevens Creek Blvd</p>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item sobremi h5 d-none d-lg-block"> <span id="subtituloperfilpersonal"
+                                class="h3">Perfil Personal :</span> <br> Soy un ingeniero industrial con 2 años de
+                            experiencia que tiene como objetivo principal la mejora, sea esta de mi mismo como
+                            profesional, de la empresa en la que trabaje y del mundo que me rodea. Y para lograr este
+                            objetivo estoy dispuesto a dar mi mejor esfuerzo trabajando junto con mis compañeros de
+                            trabajo y buscando siempre la sinergia que se logra al trabajar con otros.</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-9">
+                <div class="card p-2  mt-2 mt-md-0">
+                <div class="titulo">
+                    <div>
+                    <p id="nombre" class="h1"> ANGEL FLORES &nbsp&nbsp </p>
+                    <p id="titulo" class="h1">
+                        INGENIERO INDUSTRIAL &nbsp&nbsp&nbsp
+                    </p>
+                </div>
+                    <div class="buttonContainer">
+                        <button  class="btn btn-outline-secondary d-none d-sm-inline-block ml-2"
+                        id="botonResumen" onclick="botonDespliegue()" type="button">Ver detalles de todo el CV</button>        
+                        <button  class="btn btn-outline-secondary d-none d-sm-inline-block"
+                            id="botonResumen" onclick="botonResumen()" type="button">Ocultar detalles de todo el CV</button>     
+                                       
+                    </div>
+
+                </div>
+
+
+
+                <div class="textocv">
+                    <h2 id="subtituloexperiencia" class="subtitulosSecciones">EXPERIENCIA LABORAL &nbsp&nbsp&nbsp<button
+                            class="btn btn-outline-primary btn-sm d-none d-sm-inline-block mb-2" id="botonExperiencia"
+                            onclick="botonExperiencia()" type="button">Ocultar detalle</button></h2>
+                    <h3>Encargado de compras en Industrias Sol [Abril 2022-Julio 2022]</h3>
+                    <h4> Mis responsabilidades en el puesto fueron:</h4>
+                    <P class="h5 subtitulopuesto">•Gestión de compras </p>
+
+
+                    <p id="contenidoexperiencia1" class="contenidoExperencia h6"> Para toda necesidad de compra que
+                        surgía
+                        en la
+                        empresa
+                        (con excepción de la materia prima
+                        directa) yo era el responsable de gestionarla. Investigaba que ítems se requerían, realizaba
+                        presupuestos para encontrar la opción optima y al confirmarse la compra gestionaba el pago y
+                        transporte del producto para que los ítems llegaran en tiempo y forma a planta para su
+                        correspondiente uso</P>
+
+                    <P class="h5 subtitulopuesto">•Creación de informes de producción </p>
+
+                    <p id="contenidoexperiencia2" class="contenidoExperencia h6"> Realizaba los informes de producción
+                        diarios y
+                        semanales
+                        (mediante el cálculo de indicadores) que
+                        ayudaban a la dirección en la toma de decisiones. Para lograr esto, registraba los datos de
+                        producción diario y diseñaba los sistemas de información que transformaran esos datos en
+                        información útil para la empresa</p>
+
+
+                    <h3>Analista de Producción y Calidad en Profila S.A [Octubre 2020-Abril 2022]</h3>
+                    <h4>Mis responsabilidades en el puesto fueron:</h4>
+
+                    <p class="h5 subtitulopuesto">•Programación y control de la producción diaria y semanal: </p>
+                    <p id="contenidoexperiencia3" class="contenidoExperencia h6"> Mediante el análisis de los recursos
+                        productivos y
+                        las
+                        necesidades comerciales yo planificaba la
+                        producción diaria y semanal, asegurándome de que se cumplan con los pedidos de los clientes en
+                        tiempo y forma.</P>
+
+                    <p class="h5 subtitulopuesto">•Control y gestión de la calidad según Normas ISO </p>
+                    <p id="contenidoexperiencia4" class="contenidoExperencia h6">Realizaba el control y gestión de la
+                        calidad de los
+                        productos fabricados y de los procesos dentro de la
+                        empresa, asegurándome que estos sigan los lineamientos establecidos por la norma ISO 9001, y en
+                        caso de no cumplirse investigaba e implementaba soluciones para que cumplan con la norma</p>
+
+
+
+                    <p class="h5 subtitulopuesto">•Creación de informes de producción: </p>
+                    <p id="contenidoexperiencia5" class="contenidoExperencia h6"> Yo utilizando los datos de producción
+                        que
+                        se
+                        registran
+                        diariamente, creaba informes de producción
+                        que reflejaban la realidad de la situación productiva mediante el cálculo de indicadores, y
+                        cuando
+                        estos indicadores llegaban a niveles de alarma yo investigaba las causas de estas y proponía
+                        soluciones para resolverlas.</p>
+
+                    <p class="h5 subtitulopuesto"> •Estudio y mejora de métodos y tiempos:</p>
+                    <p id="contenidoexperiencia6" class="contenidoExperencia h6">Cuando se debía mejorar una parte del
+                        proceso
+                        productivo,
+                        yo realizaba un estudio del método
+                        actual, midiendo los tiempos de cada etapa del proceso e investigaba las interacciones que tiene
+                        este proceso con el resto de los sectores de la empresa. Utilizando esta información yo
+                        presentaba
+                        alternativas que permitieran al proceso cumplir sus objetivos de forma más eficiente y eficaz
+                    </p>
+
+
+
+                    <h2 class="subtitulossecciones">FORMACIÓN ACADÉMICA &nbsp&nbsp&nbsp<button
+                            class="btn btn-outline-primary btn-sm d-none d-sm-inline-block mb-2" id="botonFormacion"
+                            onclick="botonFormacion()" type="button">Ocultar detalle</button></h2>
+                    <h4>FORMACION UNIVERSITARIA [2012 - 2021] <br>Carrera: Ingeniería industrial</h4>
+                    <p id="contenidoformacion1" class="contenidoFormacion h5 subtituloinstitucion">
+                        <strong>Institución:</strong>
+                        <br>
+                        Facultad de
+                        Ciencias
+                        Exactas, Ingeniería y Agrimensura. Universidad Nacional
+                        de Rosario (UNR).
+                    </p>
+                    <h4>FORMACIÓN SECUNDARIA [2007 - 2011] <br>
+                        Orientación: Polimodal Economía y Gestión de las Organizaciones.</h4>
+                        <br>
+                    <p id="contenidoformacion2" class="contenidoFormacion h5 subtituloinstitucion">
+                        <strong>Institución:</strong> Escuela Media
+                        Particular nro.
+                        3037 “Natividad del Señor”.
+                    </p>
+
+
+                    <h2 class="subtitulossecciones">CERTIFICACIONES Y CURSOS &nbsp&nbsp&nbsp <button
+                            class="btn btn-outline-primary btn-sm d-none d-sm-inline-block mb-2" id="botonCursos" type="button"
+                            onclick="botonCursos()">Ocultar detalle</button></h2>
+                    <p class="contenidoCursos h6"><Strong> 2022:</Strong> Curso programación desde cero (81 Hrs).
+                        Certificado de asistencia y
+                        aprobación. <br>
+                        <Strong>2021:</Strong> Remote Work and Virtual Collaboration Professional Certificate (RWVCPC).
+                        <br>
+                        <Strong>2020: </Strong>Scrum Foundation Professional Certificate (SFPC).<br>
+                        <Strong>2020:</Strong> Curso de Jornada de Logística y Distribución. Certificado de asistencia y
+                        aprobación <br>
+                        <Strong>2019:</Strong> Seminario de Introducción a la confiabilidad de activos. Escuela de
+                        Posgrado. Facultad de Ciencias Exactas Ingeniería y Agrimensura. Universidad
+                        Nacional de Rosario. Certificado de Asistencia y aprobación
+                    </p>
+
+                    <h2 class="subtitulossecciones">INFORMATICA Y MANEJO DE SOFTWARE &nbsp&nbsp&nbsp <button
+                            class="btn btn-outline-primary btn-sm d-none d-sm-inline-block mb-2" id="botonInformatica"
+                            onclick="botonInformatica()" type="button">Ocultar detalle</button></h2>
+
+                    <p class="contenidoInformatica h6">
+                        <strong> Sistemas ERP: </Strong> Bejerman <br>
+                        <strong> Analisis y presentación de datos: </Strong> Power Bi, Visio, MS Project <br>
+                        <strong>Plataformas: </Strong> GNU / Linux (Ubuntu), Microsoft Windows. <br>
+                        <strong> MS Office: </Strong> Word, Excel, PowerPoint . <br>
+                        <strong> LibreOffice: </Strong> Writer, Calc.<br>
+                        <strong> G-Suite: </Strong> Gmail, Calendar, Drive, Docs, Sheets, Hangouts.
+
+                    </p>
+
+
+
+
+
+
+
+
+                    <h2 class="subtitulossecciones">REFERENCIAS LABORALES &nbsp&nbsp&nbsp <button
+                            class="btn btn-outline-primary btn-sm d-none d-sm-inline-block mb-2" id="botonReferencias"
+                            onclick="botonReferencias()" type="button">Ocultar detalle</button></h2>
+
+                    <p id="contenidoreferencias1" class="contenidoReferencias h6"><strong>Roberto Roldan</strong> <br>
+                        Jefe de Planta en Industria Profila S.A <br>
+                        Teléfono: 0774245821 <br>
+                    </p>
+                    <p id="contenidoreferencias2" class="contenidoReferencias h6"><strong>Ricardo Rodriguez</strong>
+                        <br>
+                        Dueño de Industrias Sol <br>
+                        Teléfono: 0774528514<br>
+                    </p>
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+        </div>
+    </div>
+    <script src="funciones/funcioncv.js"></script>
+</body>
+
+</html>
